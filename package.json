@@ -1,0 +1,21 @@
+{
+  "name": "sncf-mail-parser",
+  "version": "1.0.0",
+  "description": "Node parser to retrieve data from SNCF confirmation order email",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "parse": "node -e 'require(\"./index\").run()'"
+  },
+  "author": "Alexandre GACHET",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
